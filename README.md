@@ -34,8 +34,27 @@ The analysis covers:
 
 ---
 
-## 🏷️ Keywords
 
-`Vision Language Models` `bibliometrics` `bibliometrix` `OpenAlex` `multimodal AI` `scientific mapping` `research trends` `co-authorship` `citation analysis` `Swin Transformer` `CLIP`
+## 📥 Data Collection
+
+Data was collected directly within **Biblioshiny** using the integrated OpenAlex API. Follow the steps below to reproduce the data collection process:
+
+1. Launch Biblioshiny and navigate to **Data → API → OpenAlex** from the left sidebar
+2. In the **OpenAlex Data Collection** page, enter the following:
+
+   - **Title:** `Vision Language Model`
+   - **Date Range:** 2017 – 2026
+
+3. Under **Advanced Features**, configure:
+
+   - **Language:** English
+   - **Max Records:** 1000
+
+4. Click the **Search** button (bottom right of the title field) to retrieve the dataset
+
+> This query returned **998 documents** spanning from 2017 to 2026, which form the basis of all analyses in this study.
+
+
+
 
 ---
