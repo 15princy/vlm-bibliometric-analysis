@@ -1,2 +1,41 @@
-# vlm-bibliometric-analysis
+## About
+
+A bibliometric analysis of **Vision Language Models (VLMs)** using the `bibliometrix` R package (v4.x), covering **998 documents (2017–2026)** sourced from the **OpenAlex** repository and visualized via **Biblioshiny**.
+
+---
+
+## 📋 Description
+
 This repository contains the R code and analysis pipeline for a comprehensive bibliometric study of Vision Language Models — AI systems capable of processing both visual and textual data.
+
+The analysis covers:
+- 📈 **Performance analysis** — annual publication trends (1 paper in 2017 → 443 in 2024)
+- 🔗 **Citation analysis** — citation peak in 2021 driven by transformer-based architectures
+- 👥 **Co-authorship network mapping** — country and institutional collaborations
+- 🔑 **Keyword co-occurrence analysis** — spanning computer science, cognitive psychology, and linguistics
+- 🗺️ **Thematic mapping** — intellectual structure and temporal evolution of VLM research
+
+**Key findings:**
+- 🇨🇳 🇺🇸 China and the U.S. dominate global output
+- 🏛️ Stanford University and Google lead institutionally
+- 📄 Most-cited work: *Swin Transformer* by Ze Liu (2021) with **28,540 citations**
+- 🚀 Post-2024 surge in applied VLMs for remote sensing and machine vision
+
+---
+
+## 🛠️ Tools & Packages
+
+| Tool | Purpose |
+|------|---------|
+| `bibliometrix` (v4.x) | Core bibliometric analysis |
+| `Biblioshiny` | Interactive visualization |
+| `OpenAlex` | Data source (998 documents) |
+| `R / RStudio` | Analysis environment |
+
+---
+
+## 🏷️ Keywords
+
+`Vision Language Models` `bibliometrics` `bibliometrix` `OpenAlex` `multimodal AI` `scientific mapping` `research trends` `co-authorship` `citation analysis` `Swin Transformer` `CLIP`
+
+---
